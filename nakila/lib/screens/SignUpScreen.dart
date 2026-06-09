@@ -270,7 +270,7 @@ class SignUpScreenState extends State<SignUpScreen> {
                         ),
                         const SizedBox(height: 16),
                         DropdownButtonFormField<String>(
-                          value: _selectedGender,
+                          initialValue: _selectedGender,
                           decoration: const InputDecoration(
                             labelText: 'Jenis Kelamin',
                             hintText: 'Pilih jenis kelamin',
@@ -295,7 +295,7 @@ class SignUpScreenState extends State<SignUpScreen> {
                         ),
                         const SizedBox(height: 16),
                         DropdownButtonFormField<String>(
-                          value: _selectedRole,
+                          initialValue: _selectedRole,
                           decoration: const InputDecoration(
                             labelText: 'Peran',
                             hintText: 'Pilih peran',
