@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
   String _profileImageUrl = "";
   List<ProductModel> _products = [];
   List<StoreModel> _stores = [];
-  int _selectedIndex = 0;
+  final int _selectedIndex = 0;
   final TextEditingController _searchController = TextEditingController();
   String _searchKeyword = "";
   List<String> favoriteStoreIds = [];
